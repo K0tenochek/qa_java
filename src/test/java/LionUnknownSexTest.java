@@ -7,6 +7,6 @@ public class LionUnknownSexTest {
     @Test(expected = Exception.class)
     public void lionUnknownSex() throws Exception {
         Feline feline = Mockito.mock(Feline.class);
-        Lion lion = new Lion(feline, "детеныш");
+        Lion lion = new Lion(feline, "РґРµС‚РµРЅС‹С€");
     }
 }
